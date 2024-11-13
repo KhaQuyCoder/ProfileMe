@@ -1,0 +1,24 @@
+.container-home{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.wraper-home{
+    display: flex;
+    justify-content: space-around;
+}
+.infor-home{
+    width: 500px;
+    height: 100px;
+}
+.title-home{
+    width: 500px;
+}
+.imageMe-home{
+    width: 400px;
+    height: 400px;
+    border-radius: 99999px;
+    object-fit: cover;
+}

@@ -1,0 +1,22 @@
+
+.container-skill{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.wraper-skill{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.wraper-skill > li{
+    list-style: none;
+}
+.image-skill{
+    width: 150px;
+    height: 150px;
+    border-radius: 99999px;
+    object-fit: cover;
+    margin: 0 20px;
+}

@@ -1,0 +1,237 @@
+@media screen and (max-width : 576px){
+    .container-home{
+        padding: 0 20px;  
+    }
+    .wraper-home{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .imageMe-home{
+        width: 300px;
+        height: 300px;
+    }
+    .infor-home,.title-home{
+        width: 100%;
+    }
+    .wraper-contact{
+       flex-wrap: wrap;
+       align-items: center;
+       row-gap: 20px;
+    }
+    .wraper-skill{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .image-skill{
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+    .wraper-project{
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-project{
+        max-width: 350px;
+        object-fit: cover;
+    }
+    .item-project{
+        max-width: 350px;
+    }
+    .node-project{
+        font-size: 15px;
+    }
+    .main-movie{
+       flex-direction: column;
+    }
+    iframe{
+        width: 100%;
+    } 
+    .image-movie{
+        max-width: 100%;
+    }
+    .wraper-movie{
+        justify-content: center;
+    }
+    .title-movie, .wraper-movie{
+        max-width: 100%;
+    }  
+  
+}
+
+
+
+
+@media screen and (min-width: 577px) and (max-width:768px){
+    .container-home{
+        padding: 0 20px;  
+    }
+    .wraper-home{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .imageMe-home{
+        width: 300px;
+        height: 300px;
+    }
+    .infor-home,.title-home{
+        width: 100%;
+    }
+    .wraper-contact{
+       flex-wrap: wrap;
+       align-items: center;
+       row-gap: 20px;
+    }
+    .wraper-skill{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .image-skill{
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+    .wraper-project{
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-project{
+        max-width: 350px;
+        object-fit: cover;
+    }
+    .item-project{
+        max-width: 350px;
+    }
+    .node-project{
+        font-size: 15px;
+    }
+    .main-movie{
+       flex-direction: column;
+    }
+    iframe{
+        width: 100%;
+    } 
+    .image-movie{
+        max-width: 100%;
+    }
+    .wraper-movie{
+        justify-content: center;
+    }
+    .title-movie, .wraper-movie{
+        max-width: 100%;
+    }  
+  
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width:992px){
+    .container-home{
+        padding: 0 20px;  
+    }
+    .wraper-home{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .imageMe-home{
+        width: 300px;
+        height: 300px;
+    }
+    .infor-home,.title-home{
+        width: 100%;
+    }
+    .wraper-contact{
+       flex-wrap: wrap;
+       align-items: center;
+       row-gap: 20px;
+    }
+    .wraper-skill{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .image-skill{
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+ 
+    .image-project{
+        max-width: 350px;
+        object-fit: cover;
+    }
+    .item-project{
+        max-width: 350px;
+    }
+    .node-project{
+        font-size: 15px;
+    }
+    .title-movie{
+        width: 100%;
+    }
+    .main-movie{
+       flex-direction: column;
+    }
+    iframe{
+        width: 100%;
+    } 
+    .wraper-movie{
+        justify-content: center;
+    }
+  
+}
+
+
+
+@media screen and (min-width: 993px) and (max-width:1200px){
+    .container-home{
+        padding: 0 20px;  
+    }
+    .title-home{
+        max-width: 100%;
+    }
+    .wraper-contact{
+       flex-wrap: wrap;
+       align-items: center;
+       row-gap: 20px;
+    }
+    .wraper-skill{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .image-skill{
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+ 
+    .image-project{
+        max-width: 350px;
+        object-fit: cover;
+    }
+    .item-project{
+        max-width: 350px;
+    }
+    .node-project{
+        font-size: 15px;
+    }
+    .title-movie{
+        width: 100%;
+    }
+    .main-movie{
+       column-gap: 20px;
+    }
+    iframe{
+        width: 100%;
+    } 
+    .wraper-movie{
+        justify-content: center;
+    }
+  
+}
