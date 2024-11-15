@@ -7,13 +7,25 @@ import Offcanvas from "../Offcanvas/Offcanvas";
 import { Link } from "react-router-dom";
 import myImage from "../../assets/image/AnhBonTrap.jpg";
 import "./Header.css";
+import { useState } from "react";
 function NavScrollExample() {
-  const body = ReactDOM.createRoot(document.getElementById("body"));
-  // document.body.style.backgroundColor = "black";
+  const [status, setStatus] = useState(false);
+  const handerClickDark = () => {
+    document.body.style.transition = "0.4s linear";
+    document.body.style.backgroundColor = "#121212";
+    document.body.style.color = "#ffff";
+    setStatus(true);
+  };
 
+  const handerClickLine = () => {
+    document.body.style.transition = "0.4s linear";
+    document.body.style.backgroundColor = "#ffff";
+    document.body.style.color = "black";
+    setStatus(false);
+  };
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid>
+    <Navbar expand="lg" style={{ backgroundColor: status ? "black" : "#ffff" }}>
+      <Container className="body-header">
         <Navbar.Brand href="#">
           <Offcanvas />
         </Navbar.Brand>
@@ -27,16 +39,33 @@ function NavScrollExample() {
             <Nav.Link href="#action1">
               <Link
                 to={"/"}
-                style={{ textDecorationLine: "none", color: "black" }}
+                style={{
+                  textDecorationLine: "none",
+                  color: status ? "#ffff" : "black",
+                }}
               >
                 Trang chủ
               </Link>
             </Nav.Link>
-            <NavDropdown title="Chế độ màn hình" id="navbarScrollingDropdown">
-              <NavDropdown.Item>Line</NavDropdown.Item>
-              <NavDropdown.Item>Dark</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#" disabled></Nav.Link>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                fontSize: "20px",
+                marginTop: "4px",
+              }}
+            >
+              <i
+                class="fa-regular fa-moon"
+                onClick={handerClickDark}
+                style={{ margin: "0 15px", cursor: "pointer" }}
+              ></i>
+              <i
+                class="fa-regular fa-sun"
+                onClick={handerClickLine}
+                style={{ cursor: "pointer" }}
+              ></i>
+            </div>
           </Nav>
           <div className="infor">
             <img src={myImage} className="myImage" />

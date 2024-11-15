@@ -7,6 +7,7 @@ import Typed from "typed.js";
 import Project from "../../childComponent/projects/Project";
 import Contact from "../../childComponent/contact/Contact";
 import Movie from "../../childComponent/movie/Movie";
+import Infor from "../Infor/Infor";
 import "../../reponsive/Reponsive.css";
 const Home = () => {
   const infor = useRef(null);
@@ -67,6 +68,7 @@ const Home = () => {
       <Skill />
       <Project />
       <Movie />
+      <Infor />
     </div>
   );
 };

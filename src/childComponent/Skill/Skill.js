@@ -31,9 +31,7 @@ const Skill = () => {
   }, []);
   return (
     <div className="container-skill">
-      <h1 style={{ marginLeft: "20px" }} ref={skill}>
-        Skills
-      </h1>
+      <h1 ref={skill}>Skills</h1>
       <div className="wraper-skill">
         <li>
           <img
