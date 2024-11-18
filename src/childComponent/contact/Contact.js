@@ -52,7 +52,7 @@ const Contact = () => {
   }, []);
   return (
     <div className="container-contact">
-      <h1 ref={title}>Contact</h1>
+      <h1 ref={title}>Kết nối</h1>
       <div className="wraper-contact">
         {contact.map((item, index) => (
           <a className="a-contact" key={index} href={item.link}>

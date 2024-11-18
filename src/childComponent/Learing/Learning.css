@@ -1,0 +1,59 @@
+.container-learning{
+    width: 100%;
+    max-width: 1150px;
+    margin:  0 auto;
+}
+.wraper-learning{
+    margin: 70px 0;
+    display: flex;justify-content: center;
+}
+.main-learnning{
+    width: 10px;background-color: black;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+.th-learnning,.cs-learnning,.pt-learnning,.dh-learnning{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+
+.th-learnning{
+    left: -5px;
+    top: 1%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.th-content-learning,.cs-content-learning,.pt-content-learning,.dh-content-learning{
+    width: 320px;
+    height: 60px;
+    display: flex;align-items: center;justify-content: center;
+    border-radius: 20px;
+    margin-left: 20px;
+    transform: translateY(-20px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.2s linear;
+
+}
+.th-content-learning > a,.cs-content-learning > a,.pt-content-learning > a,.dh-content-learning > a{
+    text-decoration: none;
+}
+.cs-content-learning,.dh-content-learning{
+    transform: translate(-340px,-20px);
+}
+.cs-learnning{
+    left: -5px;
+    top: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}.pt-learnning{
+    left: -5px;
+    top: 65%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}.dh-learnning{
+    left: -5px;
+    top: 95%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}

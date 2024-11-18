@@ -1,15 +1,14 @@
+import { useContext, useState } from "react";
 import Container from "react-bootstrap/Container";
-import ReactDOM from "react-dom/client";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "../Offcanvas/Offcanvas";
 import { Link } from "react-router-dom";
 import myImage from "../../assets/image/AnhBonTrap.jpg";
 import "./Header.css";
-import { useState } from "react";
+import { myContext } from "../../State/Context";
 function NavScrollExample() {
-  const [status, setStatus] = useState(false);
+  const { status, setStatus } = useContext(myContext);
   const handerClickDark = () => {
     document.body.style.transition = "0.4s linear";
     document.body.style.backgroundColor = "#121212";
@@ -71,7 +70,7 @@ function NavScrollExample() {
             <img src={myImage} className="myImage" />
             <div className="me">
               <span>Hồ Khả Quý</span>
-              <span>Font-end Developer</span>
+              <span>Student</span>
             </div>
           </div>
         </Navbar.Collapse>

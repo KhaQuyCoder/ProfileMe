@@ -45,7 +45,7 @@ const Project = () => {
   return (
     <div className="container-project">
       <h1 style={{ marginTop: "70px" }} ref={title}>
-        Projects
+        Dự án
       </h1>
       <div className="wraper-project">
         {projects.map((item, index) => (

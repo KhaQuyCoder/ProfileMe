@@ -31,7 +31,7 @@ const Movie = () => {
   }, []);
   return (
     <div className="container-movie">
-      <h1 style={{ marginTop: "50px" }}>Favotire movie</h1>
+      <h1 style={{ marginTop: "50px" }}>Phim yêu thích</h1>
       <div className="main-movie">
         <div className="trailer-movie">
           <iframe
