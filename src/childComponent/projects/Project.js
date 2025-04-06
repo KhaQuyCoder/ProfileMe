@@ -12,8 +12,9 @@ const Project = () => {
     {
       src: "https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/2e427ce7-b2f7-4c9a-a79b-8c473fadcb55/bfbc3beb-7902-41e6-b139-e6110c8c7983.png",
       technology: "HTML, Css, Javascript, ReactJs (Fontend)",
+      href: "https://webtite-movie.vercel.app/",
       react: [
-        "Quản lý components bằng function component",
+        "Chưa hoàn thành, còn 1 số lỗi",
         "Fetch API bằng thư viện axios",
         "Chuyển trang bằng react router dom",
         "Quản lý state bằng useContext",
